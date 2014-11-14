@@ -26,7 +26,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="3DWaveEquation\" />
-    <Folder Include="SparseInversion\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
