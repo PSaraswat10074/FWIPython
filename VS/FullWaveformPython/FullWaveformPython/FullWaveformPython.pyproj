@@ -5,9 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cdb2e97e-2e11-4dae-b921-8b141e515647</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FullWaveformPython.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <StartupFile>FullWaveformPython_test.py</StartupFile>
+    <SearchPath>SparseInversion\;3DWaveEquation\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>FullWaveformPython</Name>
@@ -22,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FullWaveformPython.py" />
+    <Compile Include="3DWaveEquation\HelmSolver3D.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FullWaveformPython_test.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="3DWaveEquation\" />
